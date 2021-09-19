@@ -1,0 +1,120 @@
+    1  top
+    2  ls
+    3  cd Downloads/
+    4  ls
+    5  sudo dpkg -i warsaw_setup_64.deb
+    6  kill .
+    7  top
+    8  kill .
+    9  kill: 20716
+   10  kill: 20716 .
+   11  pkill: 20716 .
+   12  kill: .:20716
+   13  sudo kill 20716
+   14  ls
+   15  cd Downloads/
+   16  ls
+   17  sudo dpkg -i IRPF2021Linux-x86_64v1.8.bin
+   18  sudo -install IRPF2021Linux-x86_64v1.8.bin
+   19  sudo install IRPF2021Linux-x86_64v1.8.bin
+   20  sudo -install IRPF2021Linux-x86_64v1.8.bin
+   21  chmod +IRPF2021Linux-x86_64v1.8.bin
+   22  chmod +x IRPF2021Linux-x86_64v1.8.bin
+   23  sudo chmod +x IRPF2021Linux-x86_64v1.8.bin
+   24  sudo apt install libqt5svg5 qml-module-qtquick-controls
+   25  sudo dpkg -i /path/to/ocs-url*.deb
+   26  sudo apt install libqt5svg5 qml-module-qtquick-controls
+   27  sudo dpkg -i /path/to/ocs-url*.deb
+   28  sudo ocs-url
+   29  ls
+   30  cd Downloads/
+   31  ls
+   32  sudo dpkg -i ocs-url_3.1.0-0ubuntu1_amd64.deb 
+   33  sudo apt-get -f install
+   34  sudo dpkg -i warsaw_setup_64.deb 
+   35  sudo apt-get install lamp-server
+   36  sudo apt-get install lamp-server^
+   37  sudo apt-get install apache2 mysql-server php php-mysql libapache2-mod-php
+   38  sudo apt-get install phpmyadmin
+   39  sudo apt-get install php-curl php-gd php-mbstring php-mcrypt php-xml php-xmlrpc
+   40  echo "<?php phpinfo(); ?>" | sudo tee /var/www/test.php
+   41  echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/test.php
+   42  sudo /etc/init.d/apache2 restart
+   43  sudo apt-get install -y curl 
+   44  curl
+   45  git
+   46  git --version
+   47  sudo apt-get install openjdk-11-jdk
+   48  java -version
+   49  clear
+   50  sudo update-alternatives –config java
+   51  sudo update-alternatives --config java
+   52  sudo gedit ~/.bashrc
+   53  cat ~/.bashrc
+   54  echo $JAVA_HOME
+   55  java -version
+   56  cat ~/.bashrc
+   57  sudo apt-get install maven
+   58  mvn -v
+   59  sudo chmod -R ugo+rw /home/guzmandp/Workspaces/ws-sts/
+   60  clear
+   61  sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
+   62  wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
+   63  sudo apt-get update
+   64  sudo apt-get -y install postgresql
+   65  sudo su
+   66  spring boot
+   67  sts spring
+   68  spring-boot
+   69  mvn spring-boot:run
+   70  spring-boot:run
+   71  clone https://github.com/guzmandp/dscatalog-bootcamp-devsuperior.git
+   72  git clone https://github.com/guzmandp/dscatalog-bootcamp-devsuperior.git
+   73  ls
+   74  git init
+   75  ls
+   76  ls -a
+   77  git config --global user.name "guzmandp"
+   78  git config --global user.email "guzmandp@gmail.com"
+   79  code .
+   80  code .
+   81  git status
+   82  git config --global user.name 'guzmandp'
+   83  git config --global user.email 'guzmandp@gmail.com'
+   84  git config --global user.name
+   85  git config --global user.email
+   86  ls
+   87  cd 'Area de Trabalho'
+   88  cd 'Área de Trabalho'/
+   89  mkdir Curso_Git
+   90  ls
+   91  cd Curso_Git/
+   92  git config --global user.name
+   93  git init
+   94  git status
+   95  echo '#Aprendendo usar Git' > readme.md
+   96  git statuw
+   97  git status
+   98  git add readme.md 
+   99  git status
+  100  git commit -m 'Commit inicial'
+  101  echo '##Aula01' >> readme.md 
+  102  git status
+  103  echo 'Darwin Betancourt' > participantes.txt
+  104  git status
+  105  git add .
+  106  git status
+  107  git restore --staged participantes.txt
+  108  git status
+  109  git add participantes.txt 
+  110  git status
+  111  git restore --staged  .
+  112  git status
+  113  git -am 'Alteração no readme'
+  114  git commit -am 'Alteração no readme'
+  115  git status
+  116  git add participantes.txt 
+  117  git status
+  118  git commit -m 'Adicionando participantes.txt'
+  119  git status
+  120  history > Aula_01.txt
